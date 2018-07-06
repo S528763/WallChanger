@@ -14,6 +14,8 @@
 		38596E9E1FF85CDA008E17F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38596E9C1FF85CDA008E17F6 /* LaunchScreen.storyboard */; };
 		38596EA91FF85CDA008E17F6 /* WallChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38596EA81FF85CDA008E17F6 /* WallChangerTests.swift */; };
 		38596EB41FF85CDA008E17F6 /* WallChangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38596EB31FF85CDA008E17F6 /* WallChangerUITests.swift */; };
+		38596EC41FF8623B008E17F6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 38596EC31FF8623B008E17F6 /* Settings.bundle */; };
+		38596EC61FF866CD008E17F6 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38596EC51FF866CD008E17F6 /* SettingsBundleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		38596EAF1FF85CDA008E17F6 /* WallChangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallChangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38596EB31FF85CDA008E17F6 /* WallChangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallChangerUITests.swift; sourceTree = "<group>"; };
 		38596EB51FF85CDA008E17F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38596EC31FF8623B008E17F6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		38596EC51FF866CD008E17F6 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				38596E931FF85CD9008E17F6 /* AppDelegate.swift */,
 				38596E951FF85CD9008E17F6 /* ViewController.swift */,
 				38596E971FF85CD9008E17F6 /* Main.storyboard */,
+				38596EC31FF8623B008E17F6 /* Settings.bundle */,
 				38596E9A1FF85CDA008E17F6 /* Assets.xcassets */,
 				38596E9C1FF85CDA008E17F6 /* LaunchScreen.storyboard */,
 				38596E9F1FF85CDA008E17F6 /* Info.plist */,
+				38596EC51FF866CD008E17F6 /* SettingsBundleHelper.swift */,
 			);
 			path = WallChanger;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				38596E9E1FF85CDA008E17F6 /* LaunchScreen.storyboard in Resources */,
 				38596E9B1FF85CDA008E17F6 /* Assets.xcassets in Resources */,
+				38596EC41FF8623B008E17F6 /* Settings.bundle in Resources */,
 				38596E991FF85CD9008E17F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38596E961FF85CD9008E17F6 /* ViewController.swift in Sources */,
+				38596EC61FF866CD008E17F6 /* SettingsBundleHelper.swift in Sources */,
 				38596E941FF85CD9008E17F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
