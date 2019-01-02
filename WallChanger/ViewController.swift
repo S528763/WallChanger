@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	//viewDidLoad method	
     override func viewDidLoad() {
         super.viewDidLoad()
         registerSettingsBundle()
